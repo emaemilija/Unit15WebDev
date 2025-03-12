@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:gray;
+    background-color:rgb(0, 0, 0);
     position: fixed;
     top: 0;
     width: 100%;
@@ -26,3 +26,30 @@ li a{
 li a:hover {
     background-color: black;
 }
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: lighter;
+}
+
+p1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+
+}
+
+header {
+    font-family: "Times New Roman", Times, serif;
+}
+
