@@ -25,7 +25,7 @@ li a{
 header {
     color:white
 }
-]
+
 
 /* text colour change when hievring over */
 li a:hover {
@@ -64,3 +64,14 @@ header {
     border-color: darkolivegreen;
 
 }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
