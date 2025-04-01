@@ -10,17 +10,21 @@ ul {
 
 }
 
-li{
+.nav-links li{
     float:left;
 }
 
-li a{
+.nav-links li a{
+    list-style: none;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+
+
+
 
 header {
     color:white
@@ -65,13 +69,6 @@ header {
 
 }
 
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-  
-    > .col,
-    > [class*="col-"] {
-      padding-right: 0;
-      padding-left: 0;
-    }
-  }
+::marker{
+    display: none;
+}
