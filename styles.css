@@ -37,8 +37,8 @@ header {
 
 
 /* text colour change when hovering over */
-li a:hover {
-    background-color: black;
+.nav-links li a:hover {
+    background-color: rgb(72, 91, 40);
 }
 
 h1 {
@@ -80,9 +80,10 @@ header {
 }
 
 .side-menu{
-    background-color: #f8f9fa;  
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;  
     padding: 20px; 
-    border-right: 1px solid #dee2e6;
+    border-right: 1px solid white;
 }
 
 .side-menu ul{
