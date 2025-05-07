@@ -55,6 +55,12 @@ h2 {
     font-weight: lighter;
 }
 
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: underline;
+
+}
+
 p1 {
     font-family: "Times New Roman", Times, serif;
     font-size: medium;
