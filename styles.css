@@ -29,6 +29,25 @@
     text-decoration: none;
 }
 
+.bottom-nav {
+    background-color: rgb(58, 89, 49);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: none;
+}
+
+body {
+    padding-bottom: 60px;
+}
+
+main {
+    padding-bottom: 60px;
+}
+
 header {
     color:white
 }
