@@ -127,3 +127,7 @@ header {
 .side-menu ul li a:hover {
     background-color: #e9ecef; 
 }
+
+.col-md-3 img {
+    margin-bottom: 20px;
+}
