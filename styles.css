@@ -128,6 +128,20 @@ header {
     background-color: #e9ecef; 
 }
 
-.col-md-3 img {
-    margin-bottom: 20px;
+.team-image1 img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.team-image2 img{
+    width: 100%;
+    margin-bottom: 350px;
+}
+
+.team-image3 img{
+    width: 100%;
+}
+
+.office-img img{
+    margin-top: 50px;
 }
