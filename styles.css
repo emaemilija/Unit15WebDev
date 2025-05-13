@@ -67,6 +67,16 @@ p1 {
 
 }
 
+a button{
+    background-color: darkolivegreen;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    border: darkolivegreen;
+    margin-bottom: 135px;
+
+}
+
+
 header {
     font-family: "Times New Roman", Times, serif;
 }
