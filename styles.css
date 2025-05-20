@@ -40,6 +40,12 @@
     margin-bottom: none;
 }
 
+.bottom-nav li {
+    list-style-type: none;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
 body {
     padding-bottom: 60px;
 }
