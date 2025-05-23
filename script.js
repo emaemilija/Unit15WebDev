@@ -2,9 +2,9 @@ function validateForm() {
     let isValid = true;
 
     let fname = document.forms["myForm"]["fname"].value;
-    if (fname.trim() == "") 
+    if (fname.trim() == "") {
         alert("Full name must be filled out.");
-    isValid = false;
+        isValid = false;
 }
 
     let email = document.forms["myForm"]["email"].value;
@@ -51,3 +51,4 @@ function validateForm() {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);
     }
+}
